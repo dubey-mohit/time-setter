@@ -10,7 +10,7 @@ angular.module('myApp',[])
 
     .directive("timeSetter",function () {
         return{
-            templateUrl:"/timesetter/templateSetter.html",
+            templateUrl:"./templateSetter.html",
             controller:["$scope",function ($scope) {
                 console.log("MOHT",$scope.mohit);
 
