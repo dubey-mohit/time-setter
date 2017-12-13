@@ -1,0 +1,12 @@
+<input  id="hrText" ng-class="{'timepickerTxtBoxClicked':radioStatus,'timepickerTxtBox':!radioStatus}" ng-focus="hr = true;min=false;sec=false"
+       ng-init="hr =false" value="{{currenHrsNumber}}" readonly>
+<input  type="text" id="minText" ng-class="{'timepickerTxtBoxClicked':radioStatus,'timepickerTxtBox':!radioStatus}"
+       ng-focus="min = true;hr =false;sec = false" ng-init="min=false" value="{{currentMinNumber}}" readonly>
+<input  type="text" id="secText" ng-class="{'timepickerTxtBoxClicked':radioStatus,'timepickerTxtBox':!radioStatus}" ng-focus="sec = true;hr=false;min=false"
+       ng-init="sec=false" value="{{currentSecNumber}}" readonly>
+
+<div style="vertical-align: middle;display: inline-grid;margin-left: -4px;margin-top: -3px">
+    <i class="fa fa-caret-up" ng-class="{'timepickerBtnClicked':radioStatus,'timepickerBtn':!radioStatus}"  aria-hidden="true" ng-click="upClicked()"></i>
+    <i class="fa fa-caret-down" ng-class="{'timepickerBtnClicked':radioStatus,'timepickerBtn':!radioStatus}" aria-hidden="true" ng-click="downClicked()"></i>
+</div>
+

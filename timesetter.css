@@ -1,0 +1,46 @@
+.timepickerBtn{
+    border: 0.2px solid #cacaca;
+    padding-right: 3px;
+    padding-left: 3px;
+    font-size: 10px;
+    background-color: #cacaca;
+    color: #000000;
+    cursor: pointer;
+}
+.timepickerBtnClicked{
+    border: 0.2px solid #000000;
+    padding-right: 3px;
+    padding-left: 3px;
+    font-size: 10px;
+    background-color: #00a7e9;
+    color: #ffffff;
+    cursor: pointer;
+}
+.timepickerTxtBoxClicked{
+    width: 18px;
+    border: 2px solid #00a7e9;
+}
+.timepickerTxtBox{
+    width: 18px;
+    border: 2px solid #cacaca;
+}
+#hrText{
+    border-right-width: 0px;
+}
+#minText{
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+#secText{
+    border-left-width: 0px;
+}
+.devicetxtboxClicked{
+    width: 40px;
+    height: 18px;
+    border: 2px solid #00a7e9;
+}
+.devicetxtbox{
+    width: 40px;
+    height: 18px;
+    border: 1px solid #cacaca;
+}
